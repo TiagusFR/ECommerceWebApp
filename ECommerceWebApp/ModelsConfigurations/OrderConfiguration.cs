@@ -25,7 +25,7 @@ namespace ECommerceWebApp.ModelsConfigurations
 
             builder.HasOne(o => o.User)
                 .WithMany(u => u.Orders)
-                .HasForeignKey(o => o.UserId)
+                .HasForeignKey(o => o.Id)
                 .OnDelete(DeleteBehavior.Restrict);
 
         }

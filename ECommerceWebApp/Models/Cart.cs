@@ -3,7 +3,7 @@
     public class Cart
     {
         public Guid? Id { get; set; } = Guid.NewGuid();
-        public Guid? UserId { get; set; }
+        public Guid? CartId { get; set; }
         public bool IsDeleted { get; set; } = false;
 
 

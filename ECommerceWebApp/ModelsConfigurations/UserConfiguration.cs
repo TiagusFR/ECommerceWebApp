@@ -21,7 +21,7 @@ namespace ECommerceWebApp.EntityConfigurations
             // Relations
             builder.HasMany(u => u.Orders)
                    .WithOne(o => o.User)
-                   .HasForeignKey(o => o.UserId);
+                   .HasForeignKey(o => o.Id);
         }
     }
 }

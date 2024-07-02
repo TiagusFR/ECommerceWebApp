@@ -9,5 +9,6 @@
         public DateTime? Birthdate { get; set; }
         public string? Password { get; set; }
         public bool IsDeleted { get; set; }
+        public string? Role { get; set; }
     }
 }
